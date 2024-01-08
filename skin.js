@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???-38A.ggsk
-// Generated 2024-01-02T15:34:05
+// Generated 2024-01-06T13:22:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -7903,12 +7903,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='height : 100%;';
-		hs+='left : calc(50% - ((87% + 0px) / 2) + 0%);';
+		hs+='height : 72.86%;';
+		hs+='left : calc(50% - ((82.1739% + 0px) / 2) + 0%);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((72.86% + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 87%;';
+		hs+='width : 82.1739%;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -16102,6 +16102,7 @@ function pano2vrSkin(player,base) {
 		me.__11.appendChild(me.__15);
 		el=me.__13=document.createElement('div');
 		el.ggId="\ubcf8 \ub0b4\uc6a9";
+		el.ggDx=0;
 		el.ggDy=30;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
@@ -16109,11 +16110,11 @@ function pano2vrSkin(player,base) {
 		el.ggType='container';
 		hs ='';
 		hs+='height : 30%;';
-		hs+='left : 0px;';
+		hs+='left : calc(50% - ((200% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : calc(50% - ((30% + 0px) / 2) + 30%);';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 200%;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -16200,7 +16201,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__14.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\u203b\n\ubcf8 \ucee8\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uc81c\uc791\ub41c \uac83\uc73c\ub85c \uc2e4\uc81c\uc640 \ucc28\uc774\uac00 \uc788\uc73c\uba70 \uac01\uc885 \uc804\uc2dc\ubb3c \ubc0f \uc18c\ud488, \uc5f0\ucd9c\uc6a9 \uc2dc\uacf5\ubd80\ubd84\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub3d9\uc2dd \uac00\uad6c \ubc0f \uc18c\ud488\ub4e4\uc740 \uc81c\uacf5 \ud488\ubaa9\uc5d0 \ud3ec\ud568\ub418\uc5b4 \uc788\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uad6c\uccb4\uc801\uc778 \ud488\ubaa9\uc5d0 \ub300\ud55c \uc790\uc138\ud55c \uc815\ubcf4\uc640 \ucd5c\uc2e0\uc815\ubcf4\ub294 \uace0\uac1d\uc13c\ud130\uc5d0 \uc9c1\uc811 \ubb38\uc758\ud574 \uc8fc\uc138\uc694. \ubcf8 \ucee8\ud150\uce20\ub97c \ubb34\ub2e8\uc73c\ub85c \ucea1\uccd0\ud558\uac70\ub098 \ubc30\ud3ec\ud560 \uc2dc \uc800\uc791\uad8c\ubc95 \uc704\ubc18\uc73c\ub85c \ubc95\uc801\uc778 \uc81c\uc81c\ub97c \ubc1b\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.", params);
+			var hs = player._("\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \ubaa8\ub4e0 \ube0c\ub77c\uc6b0\uc800\uc5d0\uc11c \ud655\uc778 \uac00\ub2a5\ud569\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud55c \uac83\uc73c\ub85c \uc2e4\uc81c \uc8fc\ud0dd\uacfc \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \uc778\ud14c\ub9ac\uc5b4 \uc18c\ud488\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba70 \uac00\uad6c\uc640 \uc18c\ud488\ub958 \ubc0f \uc0dd\ud65c\uac00\uc804\uc740 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uc5f0\ucd9c\ub41c \uc804\uc2dc\ud488\ubaa9\uc785\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\uc758 \ubc30\uc120\uae30\uad6c(\uc2a4\uc704\uce58, \ucf58\uc13c\ud2b8, \uc628\ub3c4\uc870\uc808\uae30) \ub4f1\uc740 \uc2e4\uc81c\uc640 \ub2e4\ub97c \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b \ub9c8\uac10\uc7ac\ub294 \uc0dd\uc0b0 \ubc0f \uacf5\uae09\uc911\ub2e8 \ub4f1 \uc0ac\uc720\uac00 \ubc1c\uc0dd\ud558\uc600\uc744 \uacbd\uc6b0 \ubcc0\uacbd\ub420 \uc218 \uc788\uc73c\uba70, \uc0ac\uc774\ubc84 \ubaa8\ub378\ud558\uc6b0\uc2a4\uc0c1 \ub9c8\uac10\uc7ac\ub294 \uc2e4\uc81c\uc640 \uc0c9\uc0c1 \ubc0f \uc7ac\uc9c8\uc758 \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b \ubcf8 \ud64d\ubcf4\ubb3c\uc758 \uc81c\uc791\uacfc\uc815\uc0c1 \uc624\ud0c8\uc790\uac00 \uc788\uc744 \uc218 \uc788\uc73c\ubbc0\ub85c \ubc18\ub4dc\uc2dc \uccad\uc57d \ubc0f \uacc4\uc57d\uc2dc \ud655\uc778\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4.", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -17734,11 +17735,11 @@ function pano2vrSkin(player,base) {
 		hs+='color : rgba(34,34,34,1);';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((115% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((120% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 115%;';
+		hs+='width : 120%;';
 		hs+='pointer-events:auto;';
 		hs+='@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Nanum+Gothic:wght@400;700&display=swap\"); font-family: \"Nanum Gothic\", sans-serif; word-break:keep-all; line-height:17px;';
 		el.setAttribute('style',hs);
@@ -17757,7 +17758,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__1.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\u203b\n\ubcf8 \ucee8\ud150\uce20\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uc81c\uc791\ub41c \uac83\uc73c\ub85c \uc2e4\uc81c\uc640 \ucc28\uc774\uac00 \uc788\uc73c\uba70 \uac01\uc885 \uc804\uc2dc\ubb3c \ubc0f \uc18c\ud488, \uc5f0\ucd9c\uc6a9 \uc2dc\uacf5\ubd80\ubd84\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub3d9\uc2dd \uac00\uad6c \ubc0f \uc18c\ud488\ub4e4\uc740 \uc81c\uacf5 \ud488\ubaa9\uc5d0 \ud3ec\ud568\ub418\uc5b4 \uc788\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uad6c\uccb4\uc801\uc778 \ud488\ubaa9\uc5d0 \ub300\ud55c \uc790\uc138\ud55c \uc815\ubcf4\uc640 \ucd5c\uc2e0\uc815\ubcf4\ub294 \uace0\uac1d\uc13c\ud130\uc5d0 \uc9c1\uc811 \ubb38\uc758\ud574 \uc8fc\uc138\uc694. \ubcf8 \ucee8\ud150\uce20\ub97c \ubb34\ub2e8\uc73c\ub85c \ucea1\uccd0\ud558\uac70\ub098 \ubc30\ud3ec\ud560 \uc2dc \uc800\uc791\uad8c\ubc95 \uc704\ubc18\uc73c\ub85c \ubc95\uc801\uc778 \uc81c\uc81c\ub97c \ubc1b\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.", params);
+			var hs = player._("\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \ubaa8\ub4e0 \ube0c\ub77c\uc6b0\uc800\uc5d0\uc11c \ud655\uc778 \uac00\ub2a5\ud569\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \uc18c\ube44\uc790\uc758 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud55c \uac83\uc73c\ub85c \uc2e4\uc81c \uc8fc\ud0dd\uacfc \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\ub294 \uc778\ud14c\ub9ac\uc5b4 \uc18c\ud488\uc774 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba70 \uac00\uad6c\uc640 \uc18c\ud488\ub958 \ubc0f \uc0dd\ud65c\uac00\uc804\uc740 \uc774\ud574\ub97c \ub3d5\uae30 \uc704\ud574 \uc5f0\ucd9c\ub41c \uc804\uc2dc\ud488\ubaa9\uc785\ub2c8\ub2e4.\n\u203b E-\ubaa8\ub378\ud558\uc6b0\uc2a4\uc758 \ubc30\uc120\uae30\uad6c(\uc2a4\uc704\uce58, \ucf58\uc13c\ud2b8, \uc628\ub3c4\uc870\uc808\uae30) \ub4f1\uc740 \uc2e4\uc81c\uc640 \ub2e4\ub97c \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b \ub9c8\uac10\uc7ac\ub294 \uc0dd\uc0b0 \ubc0f \uacf5\uae09\uc911\ub2e8 \ub4f1 \uc0ac\uc720\uac00 \ubc1c\uc0dd\ud558\uc600\uc744 \uacbd\uc6b0 \ubcc0\uacbd\ub420 \uc218 \uc788\uc73c\uba70, \uc0ac\uc774\ubc84 \ubaa8\ub378\ud558\uc6b0\uc2a4\uc0c1 \ub9c8\uac10\uc7ac\ub294 \uc2e4\uc81c\uc640 \uc0c9\uc0c1 \ubc0f \uc7ac\uc9c8\uc758 \ucc28\uc774\uac00 \uc788\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\u203b \ubcf8 \ud64d\ubcf4\ubb3c\uc758 \uc81c\uc791\uacfc\uc815\uc0c1 \uc624\ud0c8\uc790\uac00 \uc788\uc744 \uc218 \uc788\uc73c\ubbc0\ub85c \ubc18\ub4dc\uc2dc \uccad\uc57d \ubc0f \uacc4\uc57d\uc2dc \ud655\uc778\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4.", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
